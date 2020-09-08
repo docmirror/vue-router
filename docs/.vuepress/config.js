@@ -1,14 +1,15 @@
 module.exports = ctx => ({
+  dest: 'vue-router',
   locales: {
     '/': {
+      lang: 'zh-CN',
+      title: 'Vue Router 中文文档',
+      description: 'Vue.js 官方的路由管理器。Vue Router 中文文档，Vue Router 国内镜像，Vue Router 中文网，Vue Router 官网打开慢，Vue Router 官网打不开'
+    },
+    '/en': {
       lang: 'en-US',
       title: 'Vue Router',
       description: 'The official router for Vue.js.'
-    },
-    '/zh/': {
-      lang: 'zh-CN',
-      title: 'Vue Router',
-      description: 'Vue.js 官方的路由管理器。'
     },
     '/ja/': {
       lang: 'ja',
@@ -53,7 +54,7 @@ module.exports = ctx => ({
       }
     ]
   ],
-  theme: '@vuepress/vue',
+  theme: 'docmirror',
   plugins: [
     [
       '@vuepress/pwa',
@@ -74,7 +75,7 @@ module.exports = ctx => ({
     docsDir: 'docs',
     smoothScroll: true,
     locales: {
-      '/': {
+      '/en': {
         label: 'English',
         selectText: 'Languages',
         editLinkText: 'Edit this page on GitHub',
@@ -125,7 +126,7 @@ module.exports = ctx => ({
           }
         ]
       },
-      '/zh/': {
+      '/': {
         label: '简体中文',
         selectText: '选择语言',
         editLinkText: '在 GitHub 上编辑此页',

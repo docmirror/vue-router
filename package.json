@@ -60,7 +60,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.5.3",
-    "@vuepress/theme-vue": "^1.5.3",
+    "@docmirror/theme-vue": "^1.5.3",
     "axios": "^0.19.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^10.0.2",
@@ -103,7 +103,7 @@
     "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.11",
     "vuepress": "^1.5.3",
-    "vuepress-theme-vue": "^1.1.1",
+    "vuepress-theme-docmirror": "^1.5.3",
     "webpack": "^4.35.2",
     "webpack-dev-middleware": "^3.7.0",
     "yorkie": "^2.0.0"
